@@ -1,0 +1,47 @@
+#import <UIKit/UIKit.h>
+
+@class SettingsViewController;
+@class LogisticsViewController;
+@class OperationalViewController;
+@class SettingsViewController;
+@class SynchronizationViewController;
+
+
+@protocol MenuProtocol <NSObject>
+
+-(void) optionSelected:(int) optionNumber;
+
+@end
+
+@interface MenuViewController : UIViewController
+{
+    NSString *dateFormatting;
+    NSString *hourFormatting;
+    NSDate *date;
+    NSDate *hour;
+    NSInteger code;
+    float lon;
+    float lat;
+    float alt;
+    
+    __weak IBOutlet UILabel *labelOperationalData;
+    __weak IBOutlet UILabel *labelLogisticData;
+    __weak IBOutlet UILabel *labelMultimedia;
+    __weak IBOutlet UILabel *labelConfiguration;
+    __weak IBOutlet UILabel *labelSync;
+    SettingsViewController *settingsVC;
+    LogisticsViewController *logisticVC;
+    OperationalViewController *operationalVC; 
+    SynchronizationViewController *SynchronizationVC;
+    id<MenuProtocol> myMenuDelegate;
+    
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil delegate:(id<MenuProtocol>) delegate;
+
+- (IBAction)buttonSettings:(id)sender;
+- (IBAction)buttonLogistics:(id)sender;
+- (IBAction)buttonOperational:(id)sender;
+- (IBAction)buttonMultimedia:(id)sender;
+- (IBAction)buttonSync:(id)sender;
+@end

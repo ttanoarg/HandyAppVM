@@ -1,0 +1,105 @@
+#import "MenuViewController.h"
+#import <CoreLocation/CoreLocation.h>
+#import "Formatter.h"
+#import "SettingsViewCOntroller.h"
+#import "LogisticsViewController.h"
+#import "OperationalViewController.h"
+#import "TranslatorManager.h"
+#import "SyncViewController.h"
+
+@interface MenuViewController ()
+
+@end
+
+@implementation MenuViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil delegate:(id<MenuProtocol>) delegate
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {}
+    
+    myMenuDelegate = delegate;    
+    return self;
+    
+}
+
+//Método que llama a la función translator
+-(void) viewWillAppear:(BOOL)animated
+{
+    [self translator];
+    
+}
+
+//Método que recoge las etiquetas definidas para realizar el cambio de idioma. Para ello utilizamos el módulo TranslatorManager
+-(void) translator
+{
+    labelOperationalData.text = [TranslatorManager languageSelectedStringForKey:@"Operational data"];
+    labelLogisticData.text = [TranslatorManager languageSelectedStringForKey:@"Logistic data"];
+    labelMultimedia.text = [TranslatorManager languageSelectedStringForKey:@"Multimedia information"];
+    labelConfiguration.text = [TranslatorManager languageSelectedStringForKey:@"Configuration"];
+    labelSync.text = [TranslatorManager languageSelectedStringForKey:@"Synchronization"];
+    
+}
+
+- (void)viewDidLoad
+{
+    
+    [super viewDidLoad];
+
+    UINavigationBar *navBar = [[self navigationController] navigationBar];
+    UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cabecera.png"]]; 
+    myImage.contentMode = UIViewContentModeScaleAspectFill;
+    UIImage *backgroundImage = myImage.image;
+    [navBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
+}
+
+- (void)viewDidUnload
+{
+    labelOperationalData = nil;
+    labelLogisticData = nil;
+    labelMultimedia = nil;
+    labelConfiguration = nil;
+    labelSync = nil;
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)buttonSettings:(id)sender 
+{
+    [myMenuDelegate optionSelected:3];
+    
+}
+
+- (IBAction)buttonLogistics:(id)sender
+{ 
+    [myMenuDelegate optionSelected:1];
+    
+}
+- (IBAction)buttonOperational:(id)sender 
+{   
+    [myMenuDelegate optionSelected:0];
+    
+}
+
+- (IBAction)buttonMultimedia:(id)sender
+{  
+    [myMenuDelegate optionSelected:2];
+    
+}
+
+- (IBAction)buttonSync:(id)sender 
+{
+    [myMenuDelegate optionSelected:4];
+    
+}
+
+
+@end

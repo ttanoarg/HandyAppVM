@@ -1,0 +1,40 @@
+#import <UIKit/UIKit.h>
+@class ActiveControlViewControllerAudio;
+@class BlockBarViewController;
+
+//Controlador que contiene el TabBar con todos los items para navegar entre los diferentes menus
+@interface TBViewController : UIViewController <UITabBarControllerDelegate> 
+{
+    UIButton *b; 
+    UITabBarController *tabController;
+    
+    //Cargamos el ActiveControlViewControllerAudio para colocarlo encima de la barra o destaparla
+    ActiveControlViewControllerAudio *ACVC;
+    
+    //Cargarmos dicho controlador para colocar la vista por encima de la barra
+    BlockBarViewController           *BBVC;
+}
+
+@property (nonatomic, retain) IBOutlet UITabBarController *tabController;
+
+//Parametro para saber si queremos activar o desactivar la barra
+@property (nonatomic) bool active;
+
+//Método que selecciona la opción en función del item recibido (itemNumber)
+-(void) selectItem:(int) itemNumber; 
+//Método para traducir
+-(void) translator;
+
+//Añadimos la vista para tapar la vista
+-(void) addActivity;
+
+//Escondemos la vista para recuperar la vista completa
+-(void) hideActivity;
+
+//Añadimos la vista para tapar la barra unicamente
+-(void) blockBar;
+
+//Escondemos la vista para recuperar la barra
+-(void) hideBar;
+
+@end

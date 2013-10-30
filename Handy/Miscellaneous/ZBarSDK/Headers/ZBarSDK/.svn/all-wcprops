@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK
+END
+ZBarHelpController.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarHelpController.h
+END
+ZBarImageScanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarImageScanner.h
+END
+ZBarReaderView.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarReaderView.h
+END
+zbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/zbar.h
+END
+ZBarReaderViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarReaderViewController.h
+END
+ZBarSDK.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarSDK.h
+END
+ZBarImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarImage.h
+END
+ZBarSymbol.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarSymbol.h
+END
+ZBarCaptureReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarCaptureReader.h
+END
+ZBarReaderController.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarReaderController.h
+END
+ZBarCameraSimulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnrep/demos/!svn/ver/288/VIPSDemo/MiClubVips/Vips/ZBarSDK/Headers/ZBarSDK/ZBarCameraSimulator.h
+END
