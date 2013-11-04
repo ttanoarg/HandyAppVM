@@ -10,7 +10,7 @@
 #import "PabellonesViewController.h"
 #import "SalidasEmergenciaViewController.h"
 #import "ItinerarioViewController.h"
-#import "PuntoInformacionViewController.h"
+#import "ProgramacionEventosViewController.h"
 #import "ZBarReaderViewController.h"
 
 @interface LocationViewController ()
@@ -127,15 +127,10 @@
     
 }
 
-- (IBAction)buttonPuntosInformacion:(id)sender
-{
-    piVCM = [[PuntoInformacionViewController alloc] init];
-    [self.navigationController pushViewController:piVCM animated:YES];
-}
 
-- (IBAction)buttonPlanItinerario:(id)sender
+- (IBAction)buttonProgramacionEventos:(id)sender
 {
-    iVC = [[ItinerarioViewController alloc] init];
-    [self.navigationController pushViewController:iVC animated:YES];
+    peVC = [[ProgramacionEventosViewController alloc] init];
+    [self.navigationController pushViewController:peVC animated:YES];
 }
 @end

@@ -32,6 +32,7 @@
                     </state>
                     <connections>
                         <action selector="buttonPlanItinerario:" destination="-1" eventType="touchUpInside" id="JDM-yD-h9p"/>
+                        <action selector="buttonProgramacionEventos:" destination="-1" eventType="touchUpInside" id="TOI-Nl-Ej6"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="drU-ue-MfV">

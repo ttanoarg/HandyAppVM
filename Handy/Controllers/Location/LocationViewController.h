@@ -11,7 +11,7 @@
 @class PabellonesViewController;
 @class SalidasEmergenciaViewController;
 @class ItinerarioViewController;
-@class PuntoInformacionViewController;
+@class ProgramacionEventosViewController;
 @class EshowViewController;
 @class ZBarReaderViewController;
 
@@ -20,7 +20,7 @@
     PabellonesViewController *pVC;
     SalidasEmergenciaViewController *seVC;
     ItinerarioViewController *iVC;
-    PuntoInformacionViewController *piVCM;
+    ProgramacionEventosViewController *peVC;
     EshowViewController *eVC;
     ZBarReaderViewController *reader;
 }
@@ -28,6 +28,6 @@
 
 - (IBAction)buttonPabellones:(id)sender;
 - (IBAction)buttonEmergencias:(id)sender;
-- (IBAction)buttonPuntosInformacion:(id)sender;
-- (IBAction)buttonPlanItinerario:(id)sender;
+- (IBAction)buttonProgramacionEventos:(id)sender;
+
 @end
