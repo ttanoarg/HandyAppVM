@@ -19,12 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="back_ground.png" id="16">
-                    <rect key="frame" x="0.0" y="0.0" width="323" height="568"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5">
-                    <rect key="frame" x="175" y="307" width="100" height="105"/>
+                    <rect key="frame" x="191" y="389" width="84" height="91"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" image="Icono-Configuración.png">
@@ -39,7 +35,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7">
-                    <rect key="frame" x="35" y="118" width="72" height="89"/>
+                    <rect key="frame" x="40" y="191" width="68" height="84"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" image="Icono-localización.png">
@@ -54,7 +50,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8">
-                    <rect key="frame" x="40" y="306" width="68" height="106"/>
+                    <rect key="frame" x="42" y="374" width="68" height="106"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" image="Icono-Stands.png"/>
@@ -63,7 +59,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9">
-                    <rect key="frame" x="174" y="102" width="94" height="105"/>
+                    <rect key="frame" x="196" y="189" width="72" height="86"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" image="Icono-Calendario.png">
@@ -78,31 +74,31 @@
                     </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Stands" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="18">
-                    <rect key="frame" x="13" y="420" width="117" height="16"/>
+                    <rect key="frame" x="17" y="506" width="117" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.073321820620000006" green="0.71235674609999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="19">
-                    <rect key="frame" x="6" y="215" width="135" height="16"/>
+                    <rect key="frame" x="7" y="295" width="135" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.073321820620000006" green="0.71235674609999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Calendar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="20">
-                    <rect key="frame" x="159" y="215" width="124" height="16"/>
+                    <rect key="frame" x="170" y="295" width="124" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.073321820620000006" green="0.71235674609999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Configuration" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="21">
-                    <rect key="frame" x="158" y="420" width="135" height="16"/>
+                    <rect key="frame" x="165" y="506" width="135" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.073321820620000006" green="0.71235674609999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <navigationBar contentMode="scaleToFill" backIndicatorImage="Barra-Header.png" id="lIG-4M-lIi">
@@ -115,13 +111,13 @@
                     </textAttributes>
                     <items>
                         <navigationItem id="ShK-AZ-Mpr">
-                            <barButtonItem key="leftBarButtonItem" image="C8641E46-D4EC-4BED-9104-9F95388FEDB9" id="25V-ja-dTx">
+                            <barButtonItem key="leftBarButtonItem" image="1D3711CF-9E31-40F3-AFB3-57D284D1E116" id="25V-ja-dTx">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="buttonEshow:" destination="-1" id="w8K-yr-lzB"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem key="rightBarButtonItem" image="FDDB8EC8-7B8C-49C1-A1A9-0C0CE56FC8DD" id="1eV-6R-dy4">
+                            <barButtonItem key="rightBarButtonItem" image="F3513B5A-4A5F-4605-96A1-387710924B44" id="1eV-6R-dy4">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="buttonQR:" destination="-1" id="fDy-EP-Ix3"/>
@@ -130,6 +126,25 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Divider-Localización.png" id="ifs-NC-i7k">
+                    <rect key="frame" x="156" y="169" width="1" height="359"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Divider-Localización.png" id="Ehy-1T-8u6">
+                    <rect key="frame" x="20" y="336" width="280" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleccione una opción" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eHA-j2-lNt">
+                    <rect key="frame" x="20" y="130" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.073321820620000006" green="0.71235674609999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e-SHow.png" id="70E-Th-NaE">
+                    <rect key="frame" x="42" y="59" width="240" height="55"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -137,8 +152,7 @@
         </view>
     </objects>
     <resources>
-        <image name="Barra-Header.png" width="640" height="124"/>
-        <image name="C8641E46-D4EC-4BED-9104-9F95388FEDB9" width="44" height="34">
+        <image name="1D3711CF-9E31-40F3-AFB3-57D284D1E116" width="44" height="34">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -308,7 +322,9 @@ JZ4loSWmJbUluSXAJcgl1SXaJdwl3iXjJesl7iXzJfsl/iYQJhMmGAAAAAAAAAIBAAAAAAAAAD8AAAAA
 AAAAAAAAAAAAACYaA
 </mutableData>
         </image>
-        <image name="FDDB8EC8-7B8C-49C1-A1A9-0C0CE56FC8DD" width="33" height="33">
+        <image name="Barra-Header.png" width="640" height="124"/>
+        <image name="Divider-Localización.png" width="559" height="1"/>
+        <image name="F3513B5A-4A5F-4605-96A1-387710924B44" width="33" height="33">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -455,6 +471,6 @@ AAAfvg
         <image name="Icono-Configuración.png" width="125" height="125"/>
         <image name="Icono-Stands.png" width="98" height="143"/>
         <image name="Icono-localización.png" width="93" height="128"/>
-        <image name="back_ground.png" width="160" height="208"/>
+        <image name="e-SHow.png" width="388" height="84"/>
     </resources>
 </document>
