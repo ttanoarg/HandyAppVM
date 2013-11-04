@@ -27,7 +27,7 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     UINavigationBar *navBar = [[self navigationController] navigationBar];
-    UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header.png"]];
+    UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header-With-Icon.png"]];
     [navBar setBackgroundImage:myImage.image forBarMetrics:UIBarMetricsDefault];
     self.edgesForExtendedLayout = UIRectEdgeNone;
     navBar.translucent = NO;
@@ -101,12 +101,9 @@
     [super viewDidLoad];
     
     
+    //[self.ImageViewContenedor setImage:[UIImage imageNamed:@"Banner-Publicidad.png"]];
     
-    //Cargamos la recomendacion 1 por defecto (ensalada siciliana)
-    [self.ImageViewContenedor setImage:[UIImage imageNamed:@"EnsaladaSiciliana.png"]];
-    
-    
-    //Cargamos la recomendacion 1 por defecto (ensalada siciliana)
+  
     [self.ImageViewContenedorReborde setImage:[UIImage imageNamed:@"Contenedor-Recomendaciones.png"]];
     
     recomendacion = false;
@@ -126,11 +123,11 @@
         //Cargamos la recomendacion 1 por defecto (ensalada siciliana)
         [self.ImageViewContenedorReborde setImage:[UIImage imageNamed:@"Contenedor-Recomendaciones.png"]];
         
-        UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"EnsaladaSiciliana.png"]];
-        [iv setFrame:CGRectMake(280, 110, 19, 262)];
+        //UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Banner-Publicidad.png"]];
+        //[iv setFrame:CGRectMake(280, 110, 19, 262)];
         
-        [self.ImageViewContenedor setFrame:CGRectMake(14, 258, 296, 100)];
-        [self.ImageViewContenedor setImage:iv.image];
+        //[self.ImageViewContenedor setFrame:CGRectMake(14, 258, 296, 100)];
+        //[self.ImageViewContenedor setImage:iv.image];
         recomendacion = false;
     }
     else
@@ -139,11 +136,11 @@
         [self.ImageViewContenedorReborde setImage:[UIImage imageNamed:@"Contenedor-Recomendaciones-2.png"]];
         //UIImage *i = [UIImage imageNamed:@"sandwich_publi.png"];
         
-        UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sandwich_publi.png"]];
-        [iv setFrame:CGRectMake(295, 99, 15, 260)];
+        //UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Banner-Publicidad.png"]];
+        //[iv setFrame:CGRectMake(295, 99, 15, 260)];
         
-        [self.ImageViewContenedor setFrame:CGRectMake(19, 255, 287, 100)];
-        [self.ImageViewContenedor setImage:iv.image];
+        //[self.ImageViewContenedor setFrame:CGRectMake(19, 255, 287, 100)];
+        //[self.ImageViewContenedor setImage:iv.image];
         recomendacion = true;
         
     }

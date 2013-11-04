@@ -39,11 +39,27 @@ alpha:1.0]
 //Método que recoge las etiquetas definidas para realizar el cambio de idioma y activa o desactiva los items de la barra. Para la traducción utilizamos el módulo TranslatorManager
 //Además cambiamos el color de la fuente
 -(void) translator
-{       
+{
+    tabBackground = [[UIImage imageNamed:@"Tapbar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 431, 320, 49)];
+    
+    /*
+     //Colocamos la barra en la parte inferior
+     Para Iphone 5
+     UIImage *tabBackground = [[UIImage imageNamed:@"fondo_barra.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 519, 320, 49)];
+     */
+    
+    [tabController.tabBar setBackgroundImage:tabBackground];
+    
+    
     for (int i=0; i < self.tabController.tabBar.items.count;i++) 
     {
         
+        
         UITabBarItem* item = [self.tabController.tabBar.items objectAtIndex:i];
+        
+        //Inicalizamos las imagenes que pondremos de fondo en cada item
+        UIImage *selectedContact = [[UIImage alloc] init];
+        UIImage *unselectedContact = [[UIImage alloc] init];
         
         switch (i)
         {
@@ -52,30 +68,48 @@ alpha:1.0]
                 //Controlamos el idioma
                 item.title = [TranslatorManager languageSelectedStringForKey:@"Stands"];
                 
-                /*
+                
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
-                */
+                
+                
+                //Establecemos la imagen de fondo del item
+                selectedContact = [UIImage imageNamed:@"Icono-Stands-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Icono-Stands-TB.png"];
+                [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
+                
                 break;
             case 1:
                 
                 //Controlamos el idioma
                 item.title = [TranslatorManager languageSelectedStringForKey:@"Calendar"];
                 
-                /*
+                
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
-                */
+                
+                
+                //Establecemos la imagen de fondo del item
+                selectedContact = [UIImage imageNamed:@"Icono-Calendario-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Icono-Calendario-TB.png"];
+                [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 break;
+                
             case 2:
                 
                 //Controlamos el idioma
                 item.title = [TranslatorManager languageSelectedStringForKey:@"Location"];
                 
-                /*
+                
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
-                 */
+                 
+                
+                //Establecemos la imagen de fondo del item
+                selectedContact = [UIImage imageNamed:@"Icono-localización-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Icono-localización-TB.png"];
+                [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
+                
                 break;
                 
             case 3:
@@ -87,6 +121,12 @@ alpha:1.0]
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                  */
+                
+                //Establecemos la imagen de fondo del item
+                selectedContact = [UIImage imageNamed:@"Icono-Configuración-TB.png"];
+                //unselectedContact = [UIImage imageNamed:@"Icono-Configuración-TB.png"];
+                [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
+                
                 break;
 
         }

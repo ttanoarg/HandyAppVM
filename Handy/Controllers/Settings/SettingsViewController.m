@@ -30,17 +30,19 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     UINavigationBar *navBar = [[self navigationController] navigationBar];
-    UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header.png"]];
+    UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header-With-Icon.png"]];
+    
+    
     [navBar setBackgroundImage:myImage.image forBarMetrics:UIBarMetricsDefault];
     self.edgesForExtendedLayout = UIRectEdgeNone;
     navBar.translucent = NO;
     
     //Creamos un boton para QR
-    UIImage* botImage = [UIImage imageNamed:@"cancel.png"];
+    UIImage* botImage = [UIImage imageNamed:@"Icono-QR"];
     CGRect frameimg = CGRectMake(0, 0, botImage.size.width, botImage.size.height);
     
     //Creamos un boton para e-Show
-    UIImage* botImage2 = [UIImage imageNamed:@"cancel.png"];
+    UIImage* botImage2 = [UIImage imageNamed:@"Icono-Tarjeta.png"];
     frameimg = CGRectMake(0, 0, botImage2.size.width, botImage.size.height);
     
     //Creamos un boton para QR
@@ -60,8 +62,8 @@
     self.navigationItem.rightBarButtonItem=mailbutton1;
     
     
-    UIBarButtonItem *mailbutton2 =[[UIBarButtonItem alloc] initWithCustomView:barB2];
-    self.navigationItem.leftBarButtonItem=mailbutton2;
+    UIBarButtonItem *mailbutton2 =[[UIBarButtonItem alloc] initWithCustomView:barB];
+                                   self.navigationItem.rightBarButtonItem=mailbutton2;
     
 }
 

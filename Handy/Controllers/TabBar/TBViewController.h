@@ -5,6 +5,7 @@
 {
     UIButton *b; 
     UITabBarController *tabController;
+    UIImage *tabBackground;
     
 }
 
