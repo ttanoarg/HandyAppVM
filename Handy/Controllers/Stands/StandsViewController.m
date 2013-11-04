@@ -61,8 +61,8 @@
     self.navigationItem.rightBarButtonItem=mailbutton1;
     
     
-    UIBarButtonItem *mailbutton2 =[[UIBarButtonItem alloc] initWithCustomView:barB];
-    self.navigationItem.rightBarButtonItem=mailbutton2;
+    UIBarButtonItem *mailbutton2 =[[UIBarButtonItem alloc] initWithCustomView:barB2];
+    self.navigationItem.leftBarButtonItem=mailbutton2;
     
     
     

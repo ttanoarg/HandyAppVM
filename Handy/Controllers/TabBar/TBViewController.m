@@ -40,7 +40,7 @@ alpha:1.0]
 //Además cambiamos el color de la fuente
 -(void) translator
 {
-    tabBackground = [[UIImage imageNamed:@"Tapbar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 431, 320, 49)];
+    //tabBackground = [[UIImage imageNamed:@"Tapbar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 431, 320, 49)];
     
     /*
      //Colocamos la barra en la parte inferior
@@ -66,7 +66,7 @@ alpha:1.0]
             case 0:
                 
                 //Controlamos el idioma
-                item.title = [TranslatorManager languageSelectedStringForKey:@"Stands"];
+                item.title = @"Stands";
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
@@ -82,7 +82,7 @@ alpha:1.0]
             case 1:
                 
                 //Controlamos el idioma
-                item.title = [TranslatorManager languageSelectedStringForKey:@"Calendar"];
+                item.title = @"Calendario";
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
@@ -98,7 +98,7 @@ alpha:1.0]
             case 2:
                 
                 //Controlamos el idioma
-                item.title = [TranslatorManager languageSelectedStringForKey:@"Location"];
+                item.title = @"Localización";
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
@@ -115,7 +115,7 @@ alpha:1.0]
             case 3:
                 
                 //Controlamos el idioma
-                item.title = [TranslatorManager languageSelectedStringForKey:@"Configuration"];
+                item.title = @"Configuración";
                 
                 /*
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
