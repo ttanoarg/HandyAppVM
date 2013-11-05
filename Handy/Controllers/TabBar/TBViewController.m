@@ -70,7 +70,7 @@ alpha:1.0]
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
-                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x1E90FF),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
                 //Establecemos la imagen de fondo del item
@@ -86,7 +86,7 @@ alpha:1.0]
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
-                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x1E90FF),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
                 //Establecemos la imagen de fondo del item
@@ -102,7 +102,7 @@ alpha:1.0]
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
-                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x97d60e),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x1E90FF),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                  
                 
                 //Establecemos la imagen de fondo del item
