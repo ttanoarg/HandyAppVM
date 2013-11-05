@@ -72,10 +72,7 @@
 -(void) LoginPerformed
 {
     /*
-<<<<<<< HEAD
-=======
-    
->>>>>>> d529b709ff35a6a90429903e0a81e546d6aa5d1c
+
     // Leemos desde la cámara
     reader = [ZBarReaderViewController new];
     reader.readerDelegate = self;
@@ -103,7 +100,7 @@
                                    userInfo:nil
                                     repeats:YES];
 
-<<<<<<< HEAD
+
      */
     
     //Cargamos el menú principal

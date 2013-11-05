@@ -31,7 +31,7 @@
 {
     UINavigationBar *navBar = [[self navigationController] navigationBar];
     UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header-With-Icon.png"]];
-    
+    eVC = [[EshowViewController alloc] init];
     
     [navBar setBackgroundImage:myImage.image forBarMetrics:UIBarMetricsDefault];
     self.edgesForExtendedLayout = UIRectEdgeNone;
@@ -69,17 +69,18 @@
 
 - (IBAction)buttoneShow
 {
-    [UIView beginAnimations:@"View Flip" context:nil];
-    [UIView setAnimationDuration:1.5];
-    [UIView setAnimationCurve:UIViewAnimationTransitionFlipFromRight];
-    UIViewAnimationTransition trans = UIViewAnimationTransitionFlipFromRight;
-    //[UIView beginAnimations: nil context: nil];
-    [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
-    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
-    [UIView commitAnimations];
+//    [UIView beginAnimations:@"View Flip" context:nil];
+//    [UIView setAnimationDuration:1.5];
+//    [UIView setAnimationCurve:UIViewAnimationTransitionFlipFromRight];
+//    UIViewAnimationTransition trans = UIViewAnimationTransitionFlipFromRight;
+//    //[UIView beginAnimations: nil context: nil];
+//    [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
+//    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+    [self.navigationController pushViewController:eVC animated:YES];
+    //[UIView commitAnimations];
 }
 - (void)animationDidStop:(NSString*)animationID finished:(BOOL)finished context:(void *)context {
-    [self.navigationController pushViewController:eVC animated:YES];
+    
 }
 - (IBAction)buttonQR
 {
