@@ -72,10 +72,7 @@
 -(void) LoginPerformed
 {
     /*
-<<<<<<< HEAD
-=======
-    
->>>>>>> d529b709ff35a6a90429903e0a81e546d6aa5d1c
+
     // Leemos desde la cámara
     reader = [ZBarReaderViewController new];
     reader.readerDelegate = self;
@@ -103,14 +100,11 @@
                                    userInfo:nil
                                     repeats:YES];
 
-<<<<<<< HEAD
+
      */
     
     //Cargamos el menú principal
-<<<<<<< HEAD
-=======
 
->>>>>>> 2666b6ed0708a4cfdd18fe2e3cdaebd3a52670ac
     menuVC = [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil delegate:self];
     [loginVC presentViewController:menuVC animated:YES completion:nil];
     

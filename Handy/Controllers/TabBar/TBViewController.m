@@ -70,7 +70,7 @@ alpha:1.0]
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
-                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x1E90FF),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
                 //Establecemos la imagen de fondo del item
@@ -86,7 +86,7 @@ alpha:1.0]
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
-                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x1E90FF),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
                 //Establecemos la imagen de fondo del item
@@ -102,7 +102,7 @@ alpha:1.0]
                 
                 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
-                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:UIColorFromRGB(0x1E90FF),UITextAttributeTextColor,nil] forState:UIControlStateSelected];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                  
                 
                 //Establecemos la imagen de fondo del item
@@ -125,6 +125,8 @@ alpha:1.0]
                 //Establecemos la imagen de fondo del item
                 selectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
                 unselectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 
                 break;
