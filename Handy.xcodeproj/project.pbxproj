@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A77DF4018298508004E7762 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF40E79F181FD06200976FE8 /* libzbar.a */; };
 		AF2C930A18198DA000E6672C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930918198DA000E6672C /* Foundation.framework */; };
 		AF2C930C18198DA000E6672C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930B18198DA000E6672C /* CoreGraphics.framework */; };
 		AF2C930E18198DA000E6672C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930D18198DA000E6672C /* UIKit.framework */; };
@@ -103,7 +104,6 @@
 		AF40E780181FCF8C00976FE8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF40E77F181FCF8C00976FE8 /* CoreMedia.framework */; };
 		AF40E782181FCF9100976FE8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF40E781181FCF9100976FE8 /* CoreVideo.framework */; };
 		AF40E784181FCF9E00976FE8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF40E783181FCF9D00976FE8 /* QuartzCore.framework */; };
-		AF40E7A5181FD06200976FE8 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF40E79F181FD06200976FE8 /* libzbar.a */; };
 		AF40E7A6181FD06200976FE8 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF40E79F181FD06200976FE8 /* libzbar.a */; };
 		AF40E7A7181FD06200976FE8 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF40E7A1181FD06200976FE8 /* zbar-back.png */; };
 		AF40E7A8181FD06200976FE8 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF40E7A1181FD06200976FE8 /* zbar-back.png */; };
@@ -450,9 +450,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A77DF4018298508004E7762 /* libzbar.a in Frameworks */,
 				AF2C930E18198DA000E6672C /* UIKit.framework in Frameworks */,
 				AF40E7B0181FD33200976FE8 /* AVFoundation.framework in Frameworks */,
-				AF40E7A5181FD06200976FE8 /* libzbar.a in Frameworks */,
 				AF2C930C18198DA000E6672C /* CoreGraphics.framework in Frameworks */,
 				AF40E784181FCF9E00976FE8 /* QuartzCore.framework in Frameworks */,
 				AF40E782181FCF9100976FE8 /* CoreVideo.framework in Frameworks */,
@@ -1401,6 +1401,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Planetmedia/Desktop/PERSONAL\\ WORKFLOW/HANDY/PROTOTIPO/Handy/Handy/Miscellaneous/ZBarSDK",
+					/Users/isaygonzalezlazaro/Documents/HandyAppVM/Handy/Miscellaneous/ZBarSDK,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1426,6 +1427,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Planetmedia/Desktop/PERSONAL\\ WORKFLOW/HANDY/PROTOTIPO/Handy/Handy/Miscellaneous/ZBarSDK",
+					/Users/isaygonzalezlazaro/Documents/HandyAppVM/Handy/Miscellaneous/ZBarSDK,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
