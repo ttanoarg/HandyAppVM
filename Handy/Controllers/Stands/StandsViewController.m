@@ -66,7 +66,7 @@
     
     
     
-    carrusel = [[iCarouselViewController alloc] initWithNibName:@"iCarouselViewController" bundle:nil delegate:nil delegateO:self viewType:@"2"];
+    //carrusel = [[iCarouselViewController alloc] initWithNibName:@"iCarouselViewController" bundle:nil delegate:nil delegateO:self viewType:@"2"];
 
     //[carrusel.view setFrame:CGRectMake(-40, 162, 320, 269)];
     //[self.view addSubview:carrusel.view];
@@ -89,7 +89,7 @@
     //[UIView beginAnimations: nil context: nil];
     [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
     [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
- //   [self.navigationController pushViewController:eVC animated:YES];
+    [self.navigationController pushViewController:eVC animated:NO];
     [UIView commitAnimations];
     
 }
