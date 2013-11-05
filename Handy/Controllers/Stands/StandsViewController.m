@@ -89,7 +89,7 @@
     //[UIView beginAnimations: nil context: nil];
     [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
     [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
- //   [self.navigationController pushViewController:eVC animated:YES];
+    [self.navigationController pushViewController:eVC animated:NO];
     [UIView commitAnimations];
     
 }
