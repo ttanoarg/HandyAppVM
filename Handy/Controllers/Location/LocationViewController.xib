@@ -31,7 +31,6 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="buttonPlanItinerario:" destination="-1" eventType="touchUpInside" id="JDM-yD-h9p"/>
                         <action selector="buttonProgramacionEventos:" destination="-1" eventType="touchUpInside" id="TOI-Nl-Ej6"/>
                     </connections>
                 </button>
@@ -42,7 +41,7 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="buttonPuntosInformacion:" destination="-1" eventType="touchUpInside" id="oAk-bD-ao7"/>
+                        <action selector="buttonPabellones:" destination="-1" eventType="touchUpInside" id="9lf-XZ-D3l"/>
                     </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salidas de emergencia" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jec-F6-Jz0">

@@ -66,10 +66,10 @@
     
     
     
-    carrusel = [[iCarouselViewController alloc] initWithNibName:@"iCarouselViewController" bundle:nil delegate:nil delegateO:self viewType:@"2"];
+    //carrusel = [[iCarouselViewController alloc] initWithNibName:@"iCarouselViewController" bundle:nil delegate:nil delegateO:self viewType:@"2"];
 
-    [carrusel.view setFrame:CGRectMake(-40, 162, 320, 269)];
-    [self.view addSubview:carrusel.view];
+    //[carrusel.view setFrame:CGRectMake(-40, 162, 320, 269)];
+    //[self.view addSubview:carrusel.view];
     
     eVC = [[EshowViewController alloc] init];
 
