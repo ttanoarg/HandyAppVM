@@ -76,11 +76,16 @@
     [UIView setAnimationDuration:1.5];
     [UIView setAnimationCurve:UIViewAnimationTransitionFlipFromRight];
     UIViewAnimationTransition trans = UIViewAnimationTransitionFlipFromRight;
-    [UIView beginAnimations: nil context: nil];
+   // [UIView beginAnimations: nil context: nil];
     [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
-    [self.navigationController pushViewController:eVC animated:YES];
+    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+    [UIView commitAnimations];
+    
 }
 
+- (void)animationDidStop:(NSString*)animationID finished:(BOOL)finished context:(void *)context {
+    [self.navigationController pushViewController:eVC animated:YES];
+}
 - (IBAction)buttonQR
 {
     // Leemos desde la cámara

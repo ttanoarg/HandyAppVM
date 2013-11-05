@@ -50,7 +50,7 @@
     [UIView setAnimationDuration:1.5];
     [UIView setAnimationCurve:UIViewAnimationTransitionFlipFromRight];
     UIViewAnimationTransition trans = UIViewAnimationTransitionFlipFromRight;
-    [UIView beginAnimations: nil context: nil];
+    //[UIView beginAnimations: nil context: nil];
     [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
   
     [self dismissViewControllerAnimated:NO completion:nil];
