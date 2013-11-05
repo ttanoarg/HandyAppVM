@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2B37191B1829991E00DB115C /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B37191A1829991E00DB115C /* libzbar.a */; };
+		2B37191D1829A9F100DB115C /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B37191C1829A9F100DB115C /* icon60.png */; };
+		2B37191F1829AA7F00DB115C /* Banner-Publicidad-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B37191E1829AA7F00DB115C /* Banner-Publicidad-2.png */; };
+		2B5A33951829AFAC00CD3FAB /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A33931829AFAC00CD3FAB /* icon29.png */; };
+		2B5A33961829AFAC00CD3FAB /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A33941829AFAC00CD3FAB /* icon40.png */; };
+		2B5A33981829B31F00CD3FAB /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A33971829B31F00CD3FAB /* default.png */; };
 		AF2C930A18198DA000E6672C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930918198DA000E6672C /* Foundation.framework */; };
 		AF2C930C18198DA000E6672C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930B18198DA000E6672C /* CoreGraphics.framework */; };
 		AF2C930E18198DA000E6672C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930D18198DA000E6672C /* UIKit.framework */; };
@@ -257,6 +262,11 @@
 
 /* Begin PBXFileReference section */
 		2B37191A1829991E00DB115C /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = Handy/Miscellaneous/ZBarSDK/libzbar.a; sourceTree = "<group>"; };
+		2B37191C1829A9F100DB115C /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		2B37191E1829AA7F00DB115C /* Banner-Publicidad-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-Publicidad-2.png"; sourceTree = "<group>"; };
+		2B5A33931829AFAC00CD3FAB /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		2B5A33941829AFAC00CD3FAB /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		2B5A33971829B31F00CD3FAB /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		AF2C930618198DA000E6672C /* Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2C930918198DA000E6672C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF2C930B18198DA000E6672C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -525,6 +535,10 @@
 		AF2C930F18198DA000E6672C /* Handy */ = {
 			isa = PBXGroup;
 			children = (
+				2B5A33971829B31F00CD3FAB /* default.png */,
+				2B5A33931829AFAC00CD3FAB /* icon29.png */,
+				2B5A33941829AFAC00CD3FAB /* icon40.png */,
+				2B37191C1829A9F100DB115C /* icon60.png */,
 				AF2C93CC1819A3D800E6672C /* Resources */,
 				AF2C93AC1819A03500E6672C /* Pieces */,
 				AF2C933818198E2300E6672C /* Controllers */,
@@ -890,6 +904,7 @@
 		AF40E7D8181FFEA200976FE8 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				2B37191E1829AA7F00DB115C /* Banner-Publicidad-2.png */,
 				AF6ED1DF1828330F0065615C /* Banner-Publicidad.png */,
 				AF6ED1E01828330F0065615C /* Icono-Eventos-de-dia.png */,
 				AF6ED1E11828330F0065615C /* Icono-Eventos-favoritos.png */,
@@ -1048,6 +1063,7 @@
 				AF6ED1E71828330F0065615C /* Icono-Eventos-favoritos.png in Resources */,
 				AF6ED1E51828330F0065615C /* Icono-Eventos-de-dia.png in Resources */,
 				AF40E7CE181FFB9000976FE8 /* s2.jpg in Resources */,
+				2B5A33981829B31F00CD3FAB /* default.png in Resources */,
 				AF6ED21D18294ECA0065615C /* Calendario-TB.png in Resources */,
 				AF6ED2091828533E0065615C /* e-SHow.png in Resources */,
 				AF2C93931819991000E6672C /* SettingsViewController.xib in Resources */,
@@ -1069,6 +1085,7 @@
 				AF40E7D6181FFB9000976FE8 /* s6.jpg in Resources */,
 				AF6ED1DD182832FD0065615C /* Foto-Stands-2.png in Resources */,
 				AF2C939A1819991F00E6672C /* LocationViewController.xib in Resources */,
+				2B37191F1829AA7F00DB115C /* Banner-Publicidad-2.png in Resources */,
 				AF40E7CC181FFB9000976FE8 /* s1.jpg in Resources */,
 				AF6ED1F6182833220065615C /* Icono-Informaci'on.png in Resources */,
 				AF40E7FA18211FD500976FE8 /* map.jpg in Resources */,
@@ -1103,10 +1120,13 @@
 				AF766D541822E34B0055A1E3 /* IconoProgramar-evento.png in Resources */,
 				AF40E7D0181FFB9000976FE8 /* s3.jpg in Resources */,
 				AF2C938C1819990200E6672C /* StandsViewController.xib in Resources */,
+				2B5A33951829AFAC00CD3FAB /* icon29.png in Resources */,
 				AF6ED1E91828330F0065615C /* Icono-Programar-Eventos.png in Resources */,
+				2B37191D1829A9F100DB115C /* icon60.png in Resources */,
 				AF40E80F18212FC100976FE8 /* ItinerarioViewController.xib in Resources */,
 				AF2C934E18198E2300E6672C /* MenuViewController.xib in Resources */,
 				AF40E747181FCC0A00976FE8 /* ListScaneroViewController.xib in Resources */,
+				2B5A33961829AFAC00CD3FAB /* icon40.png in Resources */,
 				AF40E81D1821312C00976FE8 /* RegionViewController.xib in Resources */,
 				AF2C9385181998DB00E6672C /* CalendarViewController.xib in Resources */,
 				AF40E7D4181FFB9000976FE8 /* s5.jpg in Resources */,
