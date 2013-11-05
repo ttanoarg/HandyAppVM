@@ -1,2 +1,14 @@
 
 
+.DS_Store Handy.xcodeproj/
+*.xcuserstate
+
+*.xcscheme
+
+Handy.xcodeproj/xcuserdata/maiquez.xcuserdatad/xcschemes/xcschememanagement.plist
+
+Handy.xcodeproj/project.pbxproj
+
+*.xcbkptlist
+Handy.xcodeproj/project.xcworkspace/xcuserdata/maiquez.xcuserdatad/UserInterfaceState.xcuserstate
+

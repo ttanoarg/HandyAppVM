@@ -124,6 +124,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self.scrollView setContentSize:CGSizeMake(self.content.frame.size.width, self.content.frame.size.height)];
+    
+    [self.scrollView addSubview:self.content];
+
 }
 
 - (void)didReceiveMemoryWarning
