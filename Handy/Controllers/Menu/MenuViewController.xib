@@ -111,13 +111,13 @@
                     </textAttributes>
                     <items>
                         <navigationItem id="ShK-AZ-Mpr">
-                            <barButtonItem key="leftBarButtonItem" image="E4D13027-3129-4C03-AE6D-DF0AFD31A271" id="25V-ja-dTx">
+                            <barButtonItem key="leftBarButtonItem" image="B814FED4-313A-4359-9928-C1CE3E955636" id="25V-ja-dTx">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="buttonEshow:" destination="-1" id="w8K-yr-lzB"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem key="rightBarButtonItem" image="ACF4D6BC-C82B-479F-AE17-99D091367351" id="1eV-6R-dy4">
+                            <barButtonItem key="rightBarButtonItem" image="38AEB1DB-7698-4B5B-B8C9-D9D9B09374C8" id="1eV-6R-dy4">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="buttonQR:" destination="-1" id="fDy-EP-Ix3"/>
@@ -152,7 +152,7 @@
         </view>
     </objects>
     <resources>
-        <image name="ACF4D6BC-C82B-479F-AE17-99D091367351" width="33" height="33">
+        <image name="38AEB1DB-7698-4B5B-B8C9-D9D9B09374C8" width="33" height="33">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -295,9 +295,7 @@ H10fZB9sH3kffh+AH4Ifhx+PH5Iflx+fH6IftB+3H7wAAAAAAAACAQAAAAAAAAA/AAAAAAAAAAAAAAAA
 AAAfvg
 </mutableData>
         </image>
-        <image name="Barra-Header.png" width="640" height="124"/>
-        <image name="Divider-Localización.png" width="559" height="1"/>
-        <image name="E4D13027-3129-4C03-AE6D-DF0AFD31A271" width="44" height="34">
+        <image name="B814FED4-313A-4359-9928-C1CE3E955636" width="44" height="34">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -467,6 +465,8 @@ JZ4loSWmJbUluSXAJcgl1SXaJdwl3iXjJesl7iXzJfsl/iYQJhMmGAAAAAAAAAIBAAAAAAAAAD8AAAAA
 AAAAAAAAAAAAACYaA
 </mutableData>
         </image>
+        <image name="Barra-Header.png" width="640" height="124"/>
+        <image name="Divider-Localización.png" width="559" height="1"/>
         <image name="Icono-Calendario.png" width="111" height="125"/>
         <image name="Icono-Configuración.png" width="125" height="125"/>
         <image name="Icono-Stands.png" width="98" height="143"/>

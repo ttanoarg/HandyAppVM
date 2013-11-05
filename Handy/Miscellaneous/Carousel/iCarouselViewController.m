@@ -208,7 +208,7 @@
         //Definimos la orientación horizontal (vista home)
         [UIView beginAnimations:nil context:nil];
         carousel.vertical = carousel.vertical;
-        [UIView commitAnimations];
+        //[UIView commitAnimations];
         
         carousel.type = iCarouselTypeRotary;
         [carousel reloadData];
@@ -221,7 +221,7 @@
         //Definimos la orientación vertical (vista home)
         [UIView beginAnimations:nil context:nil];
         carousel.vertical = carousel.vertical;
-        [UIView commitAnimations];
+        //[UIView commitAnimations];
         
         carousel.type = iCarouselTypeLinear;
         [carousel reloadData];

@@ -74,8 +74,8 @@ alpha:1.0]
                 
                 
                 //Establecemos la imagen de fondo del item
-                selectedContact = [UIImage imageNamed:@"Icono-Stands-TB.png"];
-                unselectedContact = [UIImage imageNamed:@"Icono-Stands-TB.png"];
+                selectedContact = [UIImage imageNamed:@"Stands-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Stands-TB.png"];
                 [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 
                 break;
@@ -90,8 +90,8 @@ alpha:1.0]
                 
                 
                 //Establecemos la imagen de fondo del item
-                selectedContact = [UIImage imageNamed:@"Icono-Calendario-TB.png"];
-                unselectedContact = [UIImage imageNamed:@"Icono-Calendario-TB.png"];
+                selectedContact = [UIImage imageNamed:@"Calendario-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Calendario-TB.png"];
                 [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 break;
                 
@@ -106,8 +106,8 @@ alpha:1.0]
                  
                 
                 //Establecemos la imagen de fondo del item
-                selectedContact = [UIImage imageNamed:@"Icono-localización-TB.png"];
-                unselectedContact = [UIImage imageNamed:@"Icono-localización-TB.png"];
+                selectedContact = [UIImage imageNamed:@"Localizacion-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Localizacion-TB.png"];
                 [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 
                 break;
@@ -123,8 +123,8 @@ alpha:1.0]
                  */
                 
                 //Establecemos la imagen de fondo del item
-                selectedContact = [UIImage imageNamed:@"Icono-Configuración-TB.png"];
-                //unselectedContact = [UIImage imageNamed:@"Icono-Configuración-TB.png"];
+                selectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
+                unselectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
                 [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 
                 break;

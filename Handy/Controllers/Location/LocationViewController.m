@@ -34,6 +34,7 @@
     UINavigationBar *navBar = [[self navigationController] navigationBar];
     UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header-With-Icon.png"]];
 
+   
     
     [navBar setBackgroundImage:myImage.image forBarMetrics:UIBarMetricsDefault];
     self.edgesForExtendedLayout = UIRectEdgeNone;
@@ -67,6 +68,7 @@
     UIBarButtonItem *mailbutton2 =[[UIBarButtonItem alloc] initWithCustomView:barB2];
     self.navigationItem.leftBarButtonItem=mailbutton2;
 }
+
 
 - (IBAction)buttoneShow
 {

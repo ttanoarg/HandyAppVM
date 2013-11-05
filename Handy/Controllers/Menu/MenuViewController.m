@@ -64,6 +64,11 @@
     
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 -(UIImage *) ChangeViewToImage : (UIView *) view{
     
     UIGraphicsBeginImageContext(view.bounds.size);
