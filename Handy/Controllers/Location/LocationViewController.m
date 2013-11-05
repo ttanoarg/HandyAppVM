@@ -39,14 +39,14 @@
     [navBar setBackgroundImage:myImage.image forBarMetrics:UIBarMetricsDefault];
     self.edgesForExtendedLayout = UIRectEdgeNone;
     navBar.translucent = NO;
-    
+    [navBar setTintColor:[UIColor whiteColor]];
     //Creamos un boton para QR
     UIImage* botImage = [UIImage imageNamed:@"Icono-QR"];
     CGRect frameimg = CGRectMake(0, 0, botImage.size.width*0.5, botImage.size.height*0.5);
     
     //Creamos un boton para e-Show
     UIImage* botImage2 = [UIImage imageNamed:@"Icono-Tarjeta.png"];
-    frameimg = CGRectMake(0, 0, botImage2.size.width*0.5, botImage.size.height*0.5);
+    CGRect frameimg2 = CGRectMake(0, 0, botImage2.size.width*0.5, botImage2.size.height*0.5);
     
     //Creamos un boton para QR
     UIButton *barB = [[UIButton alloc] initWithFrame:frameimg];
@@ -55,7 +55,7 @@
     [barB setShowsTouchWhenHighlighted:YES];
     
     //Creamos un boton para e-Show
-    UIButton *barB2 = [[UIButton alloc] initWithFrame:frameimg];
+    UIButton *barB2 = [[UIButton alloc] initWithFrame:frameimg2];
     [barB2 setBackgroundImage:botImage2 forState:UIControlStateNormal];
     [barB2 addTarget:self action:@selector(buttoneShow) forControlEvents:UIControlEventTouchUpInside];
     [barB2 setShowsTouchWhenHighlighted:YES];
