@@ -42,11 +42,11 @@
     
     //Creamos un boton para QR
     UIImage* botImage = [UIImage imageNamed:@"Icono-QR"];
-    CGRect frameimg = CGRectMake(0, 0, botImage.size.width, botImage.size.height);
+    CGRect frameimg = CGRectMake(0, 0, botImage.size.width*0.5, botImage.size.height*0.5);
     
     //Creamos un boton para e-Show
     UIImage* botImage2 = [UIImage imageNamed:@"Icono-Tarjeta.png"];
-    frameimg = CGRectMake(0, 0, botImage2.size.width, botImage.size.height);
+    frameimg = CGRectMake(0, 0, botImage2.size.width*0.5, botImage.size.height*0.5);
     
     //Creamos un boton para QR
     UIButton *barB = [[UIButton alloc] initWithFrame:frameimg];
