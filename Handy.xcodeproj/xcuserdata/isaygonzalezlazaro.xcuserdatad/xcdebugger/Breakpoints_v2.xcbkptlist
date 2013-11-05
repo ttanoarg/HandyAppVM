@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
-            landmarkName = "-animationDidStop:finished:context:"
+            landmarkName = "-buttoneShow"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
