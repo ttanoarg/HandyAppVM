@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C18E24AF-7BE0-46CE-A03F-4E1CB42DFC39</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Handy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F8939EDD-7CEA-424C-AB21-02A80AABF87E</key>
+		<string>https://github.com/ttanoarg/HandyAppVM.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Handy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F8939EDD-7CEA-424C-AB21-02A80AABF87E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ttanoarg/HandyAppVM.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8939EDD-7CEA-424C-AB21-02A80AABF87E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8939EDD-7CEA-424C-AB21-02A80AABF87E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HandyAppVM</string>
+		</dict>
+	</array>
+</dict>
+</plist>
