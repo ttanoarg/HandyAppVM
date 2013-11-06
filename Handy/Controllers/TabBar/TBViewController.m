@@ -68,11 +68,22 @@ alpha:1.0]
                 //Controlamos el idioma
                 item.title = @"Stands";
                 
+<<<<<<< HEAD
+=======
+                
+<<<<<<< HEAD
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
+<<<<<<< HEAD
+=======
+=======
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.0f/255.0f green:0.0f/255.0f blue:0.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+>>>>>>> Rafa
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
@@ -88,12 +99,22 @@ alpha:1.0]
                 item.title = @"Calendario";
                 
                 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
+<<<<<<< HEAD
 
+=======
+=======
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.0f/255.0f green:0.0f/255.0f blue:0.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+>>>>>>> Rafa
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
@@ -109,12 +130,22 @@ alpha:1.0]
                 item.title = @"Localización";
                 
                 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
+<<<<<<< HEAD
 
+=======
+=======
+                [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.0f/255.0f green:0.0f/255.0f blue:0.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+>>>>>>> Rafa
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                  
                 
@@ -138,10 +169,21 @@ alpha:1.0]
                 //Establecemos la imagen de fondo del item
                 selectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
                 unselectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
                  [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
+<<<<<<< HEAD
+=======
+=======
+                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.0f/255.0f green:0.0f/255.0f blue:0.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+>>>>>>> Rafa
+>>>>>>> 66dd6d281b600495a8146e9c83f7b5986464cbe5
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 [item setFinishedSelectedImage:selectedContact withFinishedUnselectedImage:unselectedContact];
                 
