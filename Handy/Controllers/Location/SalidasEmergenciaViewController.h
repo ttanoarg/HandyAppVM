@@ -10,4 +10,5 @@
 
 @interface SalidasEmergenciaViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollview;
 @end

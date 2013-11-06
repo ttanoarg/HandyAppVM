@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PabellonesViewController : UIViewController
+@interface PabellonesViewController : UIViewController <UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
