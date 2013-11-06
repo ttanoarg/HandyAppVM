@@ -68,7 +68,6 @@ alpha:1.0]
                 //Controlamos el idioma
                 item.title = @"Stands";
                 
-                
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
@@ -94,6 +93,7 @@ alpha:1.0]
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
+
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                 
                 
@@ -113,6 +113,7 @@ alpha:1.0]
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+
 
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateSelected];
                  
@@ -137,7 +138,6 @@ alpha:1.0]
                 //Establecemos la imagen de fondo del item
                 selectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
                 unselectedContact = [UIImage imageNamed:@"Configuracion-TB.png"];
-                
                 [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor],UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 
                  [item setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:32.0f/255.0f green:140.0f/255.0f blue:218.0f/255.0f alpha:1],UITextAttributeTextColor,nil] forState:UIControlStateNormal];

@@ -19,6 +19,9 @@
     ZBarReaderViewController *reader;
 }
 
+@property (strong, nonatomic) IBOutlet UIView *content;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 - (IBAction)buttoneShow:(id)sender;
 - (IBAction)buttonQR:(id)sender;
 @end

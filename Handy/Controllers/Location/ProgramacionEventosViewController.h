@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ProgramacionEventosViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIView *content;
 
 @end
