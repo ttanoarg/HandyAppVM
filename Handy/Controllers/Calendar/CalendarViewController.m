@@ -30,18 +30,18 @@
     UINavigationBar *navBar = [[self navigationController] navigationBar];
     UIImageView *myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Barra-Header-With-Icon.png"]];
     eVC = [[EshowViewController alloc] init];
-    
+    [navBar setTintColor:[UIColor whiteColor]];
     [navBar setBackgroundImage:myImage.image forBarMetrics:UIBarMetricsDefault];
     self.edgesForExtendedLayout = UIRectEdgeNone;
     navBar.translucent = NO;
     
     //Creamos un boton para QR
     UIImage* botImage = [UIImage imageNamed:@"Icono-QR"];
-    CGRect frameimg = CGRectMake(0, 0, botImage.size.width, botImage.size.height);
+    CGRect frameimg = CGRectMake(0, 0, botImage.size.width*0.5, botImage.size.height*0.5);
     
     //Creamos un boton para e-Show
     UIImage* botImage2 = [UIImage imageNamed:@"Icono-Tarjeta.png"];
-    frameimg = CGRectMake(0, 0, botImage2.size.width, botImage.size.height);
+    CGRect frameimg2 = CGRectMake(0, 0, botImage2.size.width*0.5, botImage2.size.height*0.5);
     
     //Creamos un boton para QR
     UIButton *barB = [[UIButton alloc] initWithFrame:frameimg];
@@ -50,7 +50,7 @@
     [barB setShowsTouchWhenHighlighted:YES];
     
     //Creamos un boton para e-Show
-    UIButton *barB2 = [[UIButton alloc] initWithFrame:frameimg];
+    UIButton *barB2 = [[UIButton alloc] initWithFrame:frameimg2];
     [barB2 setBackgroundImage:botImage2 forState:UIControlStateNormal];
     [barB2 addTarget:self action:@selector(buttoneShow) forControlEvents:UIControlEventTouchUpInside];
     [barB2 setShowsTouchWhenHighlighted:YES];
@@ -67,16 +67,16 @@
 
 - (IBAction)buttoneShow
 {
-    [UIView beginAnimations:@"View Flip" context:nil];
-    [UIView setAnimationDelegate:self];
-    [UIView setAnimationDuration:1.5];
-    [UIView setAnimationCurve:UIViewAnimationTransitionFlipFromRight];
-    UIViewAnimationTransition trans = UIViewAnimationTransitionFlipFromRight;
-    //[UIView beginAnimations: nil context: nil];
-    [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
-    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
-    [self.navigationController pushViewController:eVC animated:NO];
-    [UIView commitAnimations];
+//    [UIView beginAnimations:@"View Flip" context:nil];
+//    [UIView setAnimationDelegate:self];
+//    [UIView setAnimationDuration:1.5];
+//    [UIView setAnimationCurve:UIViewAnimationTransitionFlipFromRight];
+//    UIViewAnimationTransition trans = UIViewAnimationTransitionFlipFromRight;
+//    //[UIView beginAnimations: nil context: nil];
+//    [UIView setAnimationTransition: trans forView: [self.view window] cache: YES];
+//    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+    [self.navigationController pushViewController:eVC animated:YES];
+    //[UIView commitAnimations];
    
 }
 - (void)animationDidStop:(NSString*)animationID finished:(BOOL)finished context:(void *)context {
