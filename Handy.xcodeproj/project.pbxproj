@@ -13,6 +13,8 @@
 		2B5A33951829AFAC00CD3FAB /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A33931829AFAC00CD3FAB /* icon29.png */; };
 		2B5A33961829AFAC00CD3FAB /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A33941829AFAC00CD3FAB /* icon40.png */; };
 		2B5A33981829B31F00CD3FAB /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A33971829B31F00CD3FAB /* default.png */; };
+		AF0E24681829CAA900FAAD4B /* cabecera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0E24661829CAA900FAAD4B /* cabecera@2x.png */; };
+		AF0E24691829CAA900FAAD4B /* exit1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0E24671829CAA900FAAD4B /* exit1.png */; };
 		AF2C930A18198DA000E6672C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930918198DA000E6672C /* Foundation.framework */; };
 		AF2C930C18198DA000E6672C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930B18198DA000E6672C /* CoreGraphics.framework */; };
 		AF2C930E18198DA000E6672C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2C930D18198DA000E6672C /* UIKit.framework */; };
@@ -267,6 +269,8 @@
 		2B5A33931829AFAC00CD3FAB /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
 		2B5A33941829AFAC00CD3FAB /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
 		2B5A33971829B31F00CD3FAB /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		AF0E24661829CAA900FAAD4B /* cabecera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cabecera@2x.png"; sourceTree = "<group>"; };
+		AF0E24671829CAA900FAAD4B /* exit1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit1.png; sourceTree = "<group>"; };
 		AF2C930618198DA000E6672C /* Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2C930918198DA000E6672C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF2C930B18198DA000E6672C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -749,6 +753,8 @@
 		AF2C93AC1819A03500E6672C /* Pieces */ = {
 			isa = PBXGroup;
 			children = (
+				AF0E24661829CAA900FAAD4B /* cabecera@2x.png */,
+				AF0E24671829CAA900FAAD4B /* exit1.png */,
 				AF6ED2081828533E0065615C /* e-SHow.png */,
 				AF6ED205182845080065615C /* Barra-Header-With-Icon.png */,
 				AF6ED1F818283BB60065615C /* TB */,
@@ -1111,10 +1117,12 @@
 				AF40E7D2181FFB9000976FE8 /* s4.jpeg in Resources */,
 				AF6ED21718285EE30065615C /* ProgramacionEventosViewController.xib in Resources */,
 				AF2C93B81819A03500E6672C /* back_ground.png in Resources */,
+				AF0E24691829CAA900FAAD4B /* exit1.png in Resources */,
 				AF6ED1F0182833220065615C /* Icono-Cambiar-contrasea.png in Resources */,
 				AF2C93BC1819A03500E6672C /* back_ground_barra.png in Resources */,
 				AF40E8011821221200976FE8 /* PabellonesViewController.xib in Resources */,
 				AF2C934A18198E2300E6672C /* LoginViewController.xib in Resources */,
+				AF0E24681829CAA900FAAD4B /* cabecera@2x.png in Resources */,
 				AF766D5C1822E34B0055A1E3 /* Tarjeta-eShow.png in Resources */,
 				AF44F28918217A76008A569E /* Icono-Configuración.png in Resources */,
 				AF766D541822E34B0055A1E3 /* IconoProgramar-evento.png in Resources */,
